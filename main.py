@@ -4,8 +4,8 @@ from random import randint
 import smtplib
 import os
 
-MY_EMAIL = os.environ.get("MY_EMAIL")
-MY_PASSWORD = os.environ.get("MY_PASSWORD")
+SENDER_EMAIL = os.environ.get("SENDER_EMAIL")
+MY_PASS = os.environ.get("SENDER_EMAIL")
 
 
 now = dt.datetime.now()
